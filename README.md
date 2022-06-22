@@ -1,3 +1,6 @@
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/86789666/174304439-2126efcd-f168-45fb-ae93-98b86e7a9e22.gif)
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -20,6 +23,13 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Installation
+
+Install Vue3-emoji-picker with npm
+
+```bash
+  npm install vue3-emoji-picker
+```
 
 ## Learning Laravel
 
