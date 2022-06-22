@@ -12,6 +12,6 @@ class HomeController extends Controller
         return Inertia::render('Registration');
     }
     public function asd(){
-        return Inertia::render('Registration');
+        return Inertia::render('test');
     }
 }
