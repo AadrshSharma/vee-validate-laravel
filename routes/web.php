@@ -41,4 +41,7 @@ Route::get('/regis2',[HomeController::class,'asd']);
 Route::get('/routing', function (Request $request) {
     return inertia('Routecheck', $request);
 });
-
+//props send url
+Route::post('/yourUrl/{id}', function (Request $request) {
+    return inertia('yourVueComponent', ['id' => $request->id]);
+});
