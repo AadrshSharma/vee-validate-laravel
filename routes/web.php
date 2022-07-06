@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\HomeController;
 use Illuminate\Foundation\Application;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
@@ -36,4 +37,8 @@ Route::middleware([
 });
 Route::get('/regis',[HomeController::class,'tern']);
 Route::get('/regis2',[HomeController::class,'asd']);
+// Route::get('/routing',[HomeController::class,'routecheck']);
+Route::get('/routing', function (Request $request) {
+    return inertia('Routecheck', $request);
+});
 

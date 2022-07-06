@@ -14,4 +14,7 @@ class HomeController extends Controller
     public function asd(){
         return Inertia::render('test');
     }
+    public function routecheck(){
+        return Inertia::render('Routecheck');
+    }
 }
