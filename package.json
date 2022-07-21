@@ -30,6 +30,7 @@
         "@zaichaopan/emoji-picker": "^0.1.7",
         "vee-validate": "^4.5.11",
         "vue-emoji-picker": "^1.0.3",
+        "vue-radial-progress": "^0.3.2",
         "vue3-emoji-picker": "^1.1.3"
     }
 }
